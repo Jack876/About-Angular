@@ -9,3 +9,7 @@ In brief, you must have previously registered a provider of the HeroService with
 You can register providers in modules or in components.
 In general, add providers to the root module so that the same instance of a service is available everywhere.
 Registering at a component level means you get a new instance of the service with each new instance of that component.
+
+An Angular module class describes how the application parts fit together. Every application has at least one Angular module, the root module that you bootstrap to launch the application. You can call it anything you want. The conventional name is AppModule.
+
+The Angular Modules (NgModules) guide dives deeply into the details of Angular modules. All you need to know at the moment is a few basics about these three properties.
