@@ -143,4 +143,35 @@ export class AppComponent {
     this.selectedHero = hero;
   }
 }
+Where you left off
 
+在继续《英雄指南》之前，我们先验证一下目录结构：
+
+Before continuing with the Tour of Heroes, verify that you have the following structure.
+
+angular-tour-of-heroes
+src
+app
+app.component.ts
+app.module.ts
+hero.service.ts
+hero.ts
+hero-detail.component.ts
+mock-heroes.ts
+main.ts
+index.html
+styles.css
+systemjs.config.js
+tsconfig.json
+node_modules ...
+package.json
+让应用代码保持转译和运行
+
+Keep the app transpiling and running
+
+打开终端/控制台窗口，运行如下命令：
+
+Enter the following command in the terminal window:
+
+COPY CODE
+npm start
