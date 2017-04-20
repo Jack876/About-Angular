@@ -222,3 +222,10 @@ AppComponent is already dedicated to Heroes. Instead of moving the code out of A
 步骤如下：
 
 Do the following:
+把app.component.ts文件改名为heroes.component.ts。
+Rename the app.component.ts file to heroes.component.ts.
+把AppComponent类改名为HeroesComponent（注意，只在这一个文件中改名）。
+Rename the AppComponent class as HeroesComponent (rename locally, only in this file).
+把my-app选择器改名为my-heroes。
+Rename the selector my-app as my-heroes.
+src/app/heroes.component.ts (showing renamings only)
