@@ -243,3 +243,12 @@ The new AppComponent is the application shell. It will have some navigation link
 执行下列步骤：
 
 Perform these steps:
+添加支持性的import语句。
+add the supporting import statements.
+创建一个名叫src/app/app.component.ts的新文件。
+Create the file src/app/app.component.ts.
+定义一个导出的 AppComponent类。
+Define an exported AppComponent class.
+在类的上方添加@Component元数据装饰器，装饰器带有my-app选择器。
+Add an @Component decorator above the class with a my-app selector.
+将下面的项目从HeroesComponent移到AppComponent：
