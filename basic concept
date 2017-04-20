@@ -229,3 +229,8 @@ Rename the AppComponent class as HeroesComponent (rename locally, only in this f
 把my-app选择器改名为my-heroes。
 Rename the selector my-app as my-heroes.
 src/app/heroes.component.ts (showing renamings only)
+@Component({
+  selector: 'my-heroes',
+})
+export class HeroesComponent implements OnInit {
+}
