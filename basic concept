@@ -215,3 +215,10 @@ AppComponent组件应该只处理导航。 我们来把英雄列表的显示职�
 The AppComponent should only handle navigation, so you'll move the display of Heroes out of AppComponent and into its own HeroesComponent.
 
 HeroesComponent
+AppComponent的职责已经被移交给HeroesComponent了。 与其把AppComponent中所有的东西都搬过去，不如索性把它改名为HeroesComponent，然后单独创建一个新的AppComponent壳。
+
+AppComponent is already dedicated to Heroes. Instead of moving the code out of AppComponent, rename it to HeroesComponent and create a separate AppComponent shell.
+
+步骤如下：
+
+Do the following:
