@@ -198,3 +198,20 @@ Add routing.
 Create a new DashboardComponent.
 把仪表盘加入导航结构中
 Tie the Dashboard into the navigation structure.
+拆分 AppComponent
+
+Splitting the AppComponent
+
+现在的应用会加载AppComponent组件，并且立刻显示出英雄列表。
+
+The current app loads AppComponent and immediately displays the list of heroes.
+
+我们修改后的应用将提供一个壳，它会选择仪表盘和英雄列表视图之一，然后默认显示它。
+
+The revised app should present a shell with a choice of views (Dashboard and Heroes) and then default to one of them.
+
+AppComponent组件应该只处理导航。 我们来把英雄列表的显示职责，从AppComponent移到HeroesComponent组件中。
+
+The AppComponent should only handle navigation, so you'll move the display of Heroes out of AppComponent and into its own HeroesComponent.
+
+HeroesComponent
