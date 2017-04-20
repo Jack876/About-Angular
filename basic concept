@@ -234,3 +234,12 @@ src/app/heroes.component.ts (showing renamings only)
 })
 export class HeroesComponent implements OnInit {
 }
+创建 AppComponent
+Create AppComponent
+新的AppComponent将成为应用的“壳”。 它将在顶部放一些导航链接，并且把我们要导航到的页面放在下面的显示区中。
+
+The new AppComponent is the application shell. It will have some navigation links at the top and a display area below.
+
+执行下列步骤：
+
+Perform these steps:
