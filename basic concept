@@ -182,3 +182,19 @@ This command runs the TypeScript compiler in "watch mode", recompiling automatic
 在后续构建《英雄指南》过程中，应用能持续运行，而不用中断服务来编译或刷新浏览器。
 
 You can keep building the Tour of Heroes without pausing to recompile or refresh the browser.
+Action plan
+
+下面是我们的计划：
+
+Here's the plan:
+
+把AppComponent变成应用程序的“壳”，它只处理导航
+Turn AppComponent into an application shell that only handles navigation.
+把现在由AppComponent关注的英雄们移到一个独立的HeroesComponent中
+Relocate the Heroes concerns within the current AppComponent to a separate HeroesComponent.
+添加路由
+Add routing.
+创建一个新的DashboardComponent组件
+Create a new DashboardComponent.
+把仪表盘加入导航结构中
+Tie the Dashboard into the navigation structure.
